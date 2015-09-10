@@ -1,0 +1,17 @@
+scr/Library.Console1/bin/
+scr/Library.Console1/obj/
+scr/Library.Core/bin/
+scr/Library.Core/obj/
+scr/Library.Repository/bin/
+scr/Library.Repository/obj/
+scr/Library.Manager/bin/
+scr/Library.Manager/obj/
+scr/Manager/bin/
+scr/Manager/obj/
+scr/Library.WPF/bin/
+scr/Library.WPF/obj/
+scr/TestResults/
+scr/packages/
+scr/DataBase.db
+scr/Library.suo
+scr/Library.v12.suo

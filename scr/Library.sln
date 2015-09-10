@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Core", "Library.Core\Library.Core.csproj", "{A6472D01-3B07-4B56-BDB2-C704B8A19706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Console1", "Library.Console1\Library.Console1.csproj", "{F3D30160-EFD5-4531-8B7B-B5769BFC7B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Manager", "Library.Manager\Library.Manager.csproj", "{1D799B0D-ADEC-4452-BC48-6E3D17C1101A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B528E71-C606-4E0D-A596-3BD264F64725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "Manager\Manager.csproj", "{3222E529-A7D5-4405-81B4-FB864C5429ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Repository", "Library.Repository\Library.Repository.csproj", "{8D9CDDB8-F517-4254-8F37-C804E473FEAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.WPF", "Library.WPF\Library.WPF.csproj", "{6CF74810-7BAD-4A71-A6B6-64CB49AF051A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6472D01-3B07-4B56-BDB2-C704B8A19706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6472D01-3B07-4B56-BDB2-C704B8A19706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6472D01-3B07-4B56-BDB2-C704B8A19706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6472D01-3B07-4B56-BDB2-C704B8A19706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D30160-EFD5-4531-8B7B-B5769BFC7B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D30160-EFD5-4531-8B7B-B5769BFC7B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D30160-EFD5-4531-8B7B-B5769BFC7B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D30160-EFD5-4531-8B7B-B5769BFC7B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D799B0D-ADEC-4452-BC48-6E3D17C1101A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D799B0D-ADEC-4452-BC48-6E3D17C1101A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D799B0D-ADEC-4452-BC48-6E3D17C1101A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D799B0D-ADEC-4452-BC48-6E3D17C1101A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3222E529-A7D5-4405-81B4-FB864C5429ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3222E529-A7D5-4405-81B4-FB864C5429ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3222E529-A7D5-4405-81B4-FB864C5429ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3222E529-A7D5-4405-81B4-FB864C5429ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9CDDB8-F517-4254-8F37-C804E473FEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9CDDB8-F517-4254-8F37-C804E473FEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9CDDB8-F517-4254-8F37-C804E473FEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9CDDB8-F517-4254-8F37-C804E473FEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF74810-7BAD-4A71-A6B6-64CB49AF051A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF74810-7BAD-4A71-A6B6-64CB49AF051A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF74810-7BAD-4A71-A6B6-64CB49AF051A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF74810-7BAD-4A71-A6B6-64CB49AF051A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3222E529-A7D5-4405-81B4-FB864C5429ED} = {6B528E71-C606-4E0D-A596-3BD264F64725}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
